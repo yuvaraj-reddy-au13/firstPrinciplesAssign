@@ -1,0 +1,50 @@
+/* .testmonialImage {
+    border-radius: 50%;
+}
+
+
+
+.testmonialImage {
+    width : 10%;
+    height: 10%;
+} */
+
+
+.cardConatiner {
+    border-radius: 0.5px solid rgb(235, 231, 231);
+    box-shadow: rgb(180, 187, 187);
+}
+
+
+
+.cardWrapper {
+    align-items: center;
+}
+
+.userImage {
+    width : 40%;
+    align-items: center;
+}
+
+.cardWrapper {
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width : 780px){
+    .testmonialImage {
+        margin-left : 9rem
+    }
+
+    .cardConatiner {
+        align-content: center;
+        margin : 0 33rem;
+    }
+}
+
+
+@media screen and (max-width : 780px){
+    .testmonialImage {
+        margin-left : 7rem
+    }
+}

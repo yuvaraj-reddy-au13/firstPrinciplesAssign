@@ -1,0 +1,38 @@
+.pricingWrapper {
+    background-color: rgb(252, 251, 249);
+    margin : 10px;
+
+    /* margin-left: 5rem; */
+
+  }
+
+
+  /* style={{display:'flex', flexDirection : 'row', justifyContent:'space-around'}} */
+
+.cardsection {
+  /* margin-left: 1.6rem; */
+}
+
+
+  @media screen and (min-width: 780px){
+    .cardsection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 5rem;
+    }
+
+    .pricingWrapper {
+    justify-content: center;
+    margin-left: 3rem;
+
+    }
+  }
+
+  @media screen and (max-width: 780px){
+    .pricingWrapper {
+        justify-content: center;
+        margin-left : 2rem;
+      
+    }
+  }

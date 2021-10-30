@@ -1,0 +1,26 @@
+.craftedforwrapper {
+    margin-top : 10px;
+    display: flex;
+    flex-direction: row;
+    background-color :rgb(241, 244, 245);
+    padding : 5rem
+  
+  }
+  
+  .craftedForImage {
+    width : 45%;
+    margin-top: 10px;
+  }
+
+
+  @media screen and (max-width: 780px){
+    .craftedforwrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .craftedForImage {
+      width : 100%;
+      
+    }
+  }

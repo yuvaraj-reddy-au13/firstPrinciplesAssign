@@ -1,0 +1,47 @@
+.calltoaction {
+    background-color: rgb(53, 53, 218);
+    /* padding-right: 20rem; */
+    width : 50%
+  }
+ 
+ 
+  .calltoaction h1{
+    color: white;
+  }
+
+  /* style = {{display : 'flex', flexDirection:'row', marginTop : '20px'}} */
+
+
+  .callActionWrapper {
+
+  }
+
+  @media screen and (min-width: 780px){
+    .firstCol {
+      width : 50%
+    }
+    .callActionWrapper{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+
+
+  @media screen and (max-width: 780px){
+    .calltoaction {
+      width : 100%
+    }
+    .contactMail {
+      margin-left : -10rem;
+      text-align: center !important;
+      width : 10rem;
+      display: block;
+    }
+
+    .contactMail input{
+      margin-left: -1rem;
+      width : 10%;
+    }
+  }
+
